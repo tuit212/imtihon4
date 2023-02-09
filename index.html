@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Todo app</title>
+</head>
+
+<body>
+
+    <!-- todos app -->
+
+    <section class="pt-5" style="background-color: rgb(59, 96, 96); height: 1000px;" >
+        <div class="container">
+            <div class="row">
+
+                <h1 class="text-center text-danger">My todos app</h1>
+
+                <div class="col-md-6 mx-auto mt-3">
+                    <span class="loginOut">Login out</span>
+                    <form id="todo" class="input-group mb-3">
+
+                        <span class="input-group-text" id="inputGroup-sizing-default">
+                            Type your todo
+                        </span>
+                        <input 
+                        type="text"
+                        class="form-control" 
+                        aria-label="Sizing example input" 
+                        aria-describedby="inputGroup-sizing-default"
+                        >
+                        <button class="btn btn-secondary"
+                        type="submit"
+                        id="button-addon2">
+                        Button
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- todos cards -->
+
+            <div class="row d-flex justify-content-center gap-3" id="cards">
+                
+                   
+                
+            </div>
+
+            <!-- end of todos cards -->
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

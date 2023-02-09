@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* singIn */
+body{
+    background-color: #06d4cd;
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+}
+.registerBox{
+    max-width: 40%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.registerBox_Wrappeer{
+    width: 100%;
+    padding: 20px 40px ;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: auto 0;
+}
+.loginOut{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.registerBox__title{
+    font-weight: 700;
+    font-size: 35.2264px;
+    line-height: 72px;
+    text-align: center;
+    color: #212B27;
+}
+#registerForm , #signinForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#userName , #userPassword{
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    outline: none;
+
+}
+#userName::placeholder , #userPassword::placeholder{
+    font-size: 18.01px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.registerForm__btn{
+    padding: 12px 30px;
+    background: #84C7AE;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 22.7495px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
